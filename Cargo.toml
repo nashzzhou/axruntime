@@ -37,6 +37,7 @@ axnet = { git = "https://github.com/Starry-OS/axnet.git", optional = true }
 axdisplay = { git = "https://github.com/Starry-OS/axdisplay.git", optional = true }
 axtask = { git = "https://github.com/Starry-OS/axtask.git", optional = true }
 axprocess = { git = "https://github.com/Starry-OS/axprocess.git", optional = true }
+axfutex = { git = "https://github.com/YXalix/axfutex.git"}
 axmem = { git = "https://github.com/Starry-OS/axmem.git", optional = true }
 crate_interface = { git = "https://github.com/Starry-OS/crate_interface.git" }
 percpu = { git = "https://github.com/Starry-OS/percpu.git", optional = true }

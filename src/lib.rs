@@ -146,6 +146,7 @@ pub extern "C" fn rust_main(cpu_id: usize, dtb: usize) {
     cfg_if::cfg_if! {
         if #[cfg(feature = "monolithic")] {
             axprocess::init_kernel_process();
+            axfutex::init_futex();
         }
         else {
             #[cfg(feature = "multitask")]
